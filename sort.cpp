@@ -66,17 +66,17 @@ int main()
         t1 = clock();
         bubbleSort();
         t2 = clock();
-        cout << "Bubble Sort\t: " << (t2 - t1)/CLK_TCK << " sec\n";
+        cout << "Bubble Sort: " << (t2 - t1)/CLK_TCK << " sec\n";
 
         t1 = clock();
         insertionSort();
         t2 = clock();
-        cout << "Insertion Sort\t: " << (t2 - t1)/CLK_TCK << " sec\n";
+        cout << "Insertion Sort: " << (t2 - t1)/CLK_TCK << " sec\n";
 
         t1 = clock();
         selectionSort();
         t2 = clock();
-        cout << "Selection Sort\t: " << (t2 - t1)/CLK_TCK << " sec\n";
+        cout << "Selection Sort: " << (t2 - t1)/CLK_TCK << " sec\n";
 
 
 
