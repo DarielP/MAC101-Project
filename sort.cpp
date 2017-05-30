@@ -39,21 +39,21 @@ void insertionSort()
 
 void selectionSort()
 {
-	long n,min1,temp;
+	long n,min,temp;
 
 	for (int i=0; i < n-1; i++)
 	{
-	    min1 = i;
+	    min = i;
 		for (int j=i+1; j < n; j++)
 		{
-		if (arr[j] < arr[min1])
-                  min1= j;
+		if (arr[j] < arr[min])
+                  min= j;
 
-            if (min1!= i)
+            if (min!= i)
             {
                  temp = arr[i];
-                 arr[i] = arr[min1];
-                 arr[min1] = temp;
+                 arr[i] = arr[min];
+                 arr[min] = temp;
             }
 	}
 }
